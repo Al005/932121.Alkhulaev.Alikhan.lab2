@@ -1,0 +1,29 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 0; 
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+p {
+    color: black;
+}
+
+.content {
+}
+
+.block__first {
+    width: 500px;
+    margin: 20px auto;
+}
+.block__second {
+    width: 500px;
+
+}
+.block__second p {
+    border: solid blue 10px;
+    padding: 55px
+}
