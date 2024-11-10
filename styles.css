@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    width: 200px;
+    height: 120px;
+    margin-left: 10px;
+    color: white;
+    font-size: 15px;
+
+}
+.static_div {
+    margin-top: 10px;
+    background-color: blueviolet;
+    position: static;
+}
+
+.box--red {
+    background-color: darkred;
+    position: relative;
+    
+}
+
+.box--orange {
+    background-color: peru;
+    position: relative;
+    top: -30px;
+    right: -30px;
+}
+
+.box--parent {
+    background-color: indianred;
+    width: 600px;
+    height: 400px;
+    position: relative;
+    z-index: 10;
+}
+
+.box--child {
+    position: absolute;
+    margin-top: 120px;
+    width: 350px;
+    height: 200px;
+    background-color: indigo;
+    right: 0;
+}
+
+.fixed_div {
+    width:auto;
+    background-color: green;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
