@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.content {
+    margin-top: 5px;
+
+}
+.section {
+    width: 600px;
+    margin: 0 auto;
+}
+.text {
+    background-color: blue;
+    color: white;
+}
+.img {
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
