@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.container1 {
+    margin: 10px;
+    background-color: aqua;
+    display: flex; 
+}
+
+.box--list{
+    min-width: 250px; 
+    height: 100px;
+    background-color: bisque;
+}
+
+.box--list ul{
+    margin: 22px 40px;
+}
+
+.box--text {
+    margin-left: auto;
+    background-color: darkgray;
+    
+}
+.footer {
+    height: 70px;
+    width: 100%;
+    background-color: limegreen;
+    bottom: 0;
+    position: fixed;
+}
