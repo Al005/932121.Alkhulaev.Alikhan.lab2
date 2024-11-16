@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.container1 {
+    border: 0.7px double green;  
+    border-color: green black green;
+    margin: 5px;
+    background-color: aqua;
+    display: flex;
+}
+
+.box {
+    margin: 0;
+}
+.box--img {
+    margin-left: auto;
+    height: auto;
+    margin-bottom: 0;
+}
+
+.box--img img {
+    display: block;
+}
