@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.container {
+    margin: 10px;
+    flex-wrap: wrap;
+    background-color: aqua;
+    border: 0.8px double green;  
+    border-color: green black green;
+    display: flex;
+}
+.list {
+    background-color: bisque;
+    padding: 15px 30px;
+    height: 60px;
+    width: calc(20% + 10px);
+    min-width: 100px;
+    margin-right: 5px;
+}
+
+.text {
+    display: grid;
+    background-color: darkgray;
+    width: 75%;
+    
+    
+}
