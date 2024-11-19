@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 10px;
+    background-color: aqua;
+    border: 0.8px double green;  
+    border-color: green black green;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list {
+    background-color: bisque;
+    padding: 15px 30px;
+    height: 90px;
+    width:  calc(15% + 50px);
+    min-width: 100px;
+}
+
+.main {
+    width: calc(85% - 50px); 
+    background-color: darkgray;    
+    display: grid;
+}
+
+.img_bobr {
+    float: right;
+    width: 40%;
+}
+
