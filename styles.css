@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    
+    
+}
+
+.block {
+    width: 200px;
+    height: 100px;
+    background-color: aquamarine;
+    margin: 23px 0 0 23px;
+    display: inline-block;
+}
+
+.block_regular {
+    background-color: bisque;
+    margin: 15px;
+}
